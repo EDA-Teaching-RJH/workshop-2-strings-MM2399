@@ -1,8 +1,8 @@
 def main():
-    slow = input("Input ")
-    myFunction(slow)
+  slow = input("Input: ")
+  myFunction(slow)
 
-def myFunction(text):
-  #Your code goes here.
+def myFunction(input):
+  print (input.replace(' ','.'))
 
 main()
